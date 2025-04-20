@@ -1,7 +1,7 @@
 // src/pages/AboutUs.tsx
 import React from 'react';
 import { GallerySection } from '../pages/gallerySection'; 
-import { Footer } from '../components/Footer';
+
 
 
 export const AboutUs = () => {
@@ -17,7 +17,7 @@ export const AboutUs = () => {
       <section className="grid md:grid-cols-2 gap-8 items-center">
         <div>
           <img
-            src="../src/images/factory_pic_5.jpeg" //  Use public/images path for accessibility
+            src="../images/factory_pic_5.jpeg" //  Use public/images path for accessibility
             alt="Manufacturing Unit"
             className="rounded-xl shadow-lg w-full max-w-[600px] mx-auto"
           />
@@ -56,7 +56,7 @@ export const AboutUs = () => {
         <div className="flex justify-center gap-10">
           <div className="text-center">
             <img
-              src="../src/images/Ashwin_Mishra.jpeg" 
+              src="../images/Ashwin_Mishra.jpeg" 
               alt="Avinash Mishra"
               className="w-48 h-48 object-cover rounded-full mx-auto shadow-lg"
             />
