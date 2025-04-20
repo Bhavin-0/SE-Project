@@ -7,11 +7,11 @@ import { Navigation, Pagination } from 'swiper/modules';
 
 export const GallerySection = () => {
   const images = [
-    '../src/images/factory_pic_5.jpeg',
-    '../src/images/factory_pic_2.jpeg',
-    '../src/images/factory_pic_3.jpeg',
-    '../src/images/factory_pic_8.jpeg',
-    '../src/images/factory_pic_7.jpeg',
+    '../images/factory_pic_5.jpeg',
+    '../images/factory_pic_2.jpeg',
+    '../images/factory_pic_3.jpeg',
+    '../images/factory_pic_8.jpeg',
+    '../images/factory_pic_7.jpeg',
   ];
 
   return (
