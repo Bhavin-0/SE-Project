@@ -1,6 +1,8 @@
 // src/pages/AboutUs.tsx
 import React from 'react';
-import { GallerySection } from '../pages/gallerySection'; //Make sure the path is correct
+import { GallerySection } from '../pages/gallerySection'; 
+import { Footer } from '../components/Footer';
+
 
 export const AboutUs = () => {
   return (
